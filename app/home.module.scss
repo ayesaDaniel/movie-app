@@ -67,36 +67,37 @@ min-width: 20vh;
   align-items:center ;
   text-align: center;
   justify-content: center;
-  // padding-right:70px ;
-  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+  // padding-right:70px ; 15 1
+  grid-template-columns: repeat(auto-fit,minmax(19rem,1.5fr));
  margin: 12px 42px;
   padding-right:  15px;
  
 }
  .popularContainer{
-  border: 2px solid white;
+  // border: 2px solid white;
   // padding-top: 2px;
   margin-right: 64px;
   padding:2px 5px 0 5px;
    width: 31vh;
-   height:79vh;
+   height:39vh;
    margin-bottom: 70px;
    border-radius: 5px;
-   background-color: lighten($color: black, $amount: 30);
+  //  background-color: lighten($color: black, $amount: 30);
    
  }
  .popularContainer:hover{
   box-shadow: inset 20px 20px 20px -2px rgba(0,0,0,0.7);
-  border: 2px solid lightgreen;
+  //  border: 0.4px solid lightgreen;
  }
  .popularContainer:focus{
   outline: none;
  }
 
  .movieImage{
-  width: 190px;
-  height:300px;
+  width: 340px;
+  height:220px;
 padding: 4px 5px 0 5px;
+   border-radius: 9px;
  }
  .imageContainer{
   width:100%;
@@ -111,8 +112,12 @@ padding: 4px 5px 0 5px;
 
  .movieTitle{
   color: white;
-  font-size: x-large;
-  padding-top: 15px;
+  font-size: large;
+  padding-top: 10px;
+    display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
  }
 
  .Title{
@@ -133,7 +138,7 @@ padding: 4px 5px 0 5px;
   color: white;
   font-size: medium;
   font-style: italic;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;
  
  }
