@@ -38,7 +38,7 @@ proirity="true"
     
  </div>
  
-   // movie-app-pi-lilac-46.vercel.app       
+   // https://movie-app-qh1g.vercel.app/    
    // https://react-meme-generator-hazel.vercel.app/
    // https://tenzies-game-zeta-sepia.vercel.app/
     )
