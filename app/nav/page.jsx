@@ -5,11 +5,11 @@ export default function Nav() {
     return ( 
         <>
           <nav className={styles.nav}>
-       <h1  className={styles.logoText}>
+       <h2  className={styles.logoText}>
          <span className={styles.logo}>SS</span> 
-         SaintStream</h1>
+         SaintStream</h2>
  
-     <ul  >
+     <ul className={styles.navContainer} >
      <Link href="/">
          <li className={styles.item}>Home</li> 
          </Link>

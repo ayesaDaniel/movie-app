@@ -19,22 +19,29 @@ export default function Footer(){
             </ul>
         </div>  
 
-        <div className={styles.footerRight}>
+
+
+    
+<div className={styles.footerRight}>
 <ul className={styles.footerRightul}>
     <li className={styles.footerRightli}> Home </li> 
     <li className={styles.footerRightli}> Trending </li>
     <li className={styles.footerRightli}>Series</li>
 </ul>
+</div>
 
+
+
+<div className={styles.footerRightIcons} >
 <ul>
     <li className={styles.footerIcon}><MdFacebook /></li>
     <li className={styles.footerIcon}><SlSocialTwitter /></li>
     <li className={styles.footerIcon}><SlSocialInstagram /></li>
     <li className={styles.footerIcon}><SlSocialGoogle/></li>
 </ul>
-<h3> @ 2023</h3>
-
         </div>
+
+        {/* <h3 className={styles.copyright}> &copy 2023</h3> */}
         </section>
     )
 }

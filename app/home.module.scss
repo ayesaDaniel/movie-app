@@ -67,22 +67,19 @@ min-width: 20vh;
   align-items:center ;
   text-align: center;
   justify-content: center;
-  padding-top:10px;
-padding-left: 4px;
-padding-right: 65px;
+  // padding-right:70px ;
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
-  margin: 12px 42px;
+ margin: 12px 42px;
+  padding-right:  15px;
+ 
 }
  .popularContainer{
   border: 2px solid white;
-  align-items:center ;
-  text-align: center;
-  flex-direction: column;
-  display: flex;
-  padding-top: 2px;
-   margin-right: 32px;
-   width: 34vh;
-   height:75vh;
+  // padding-top: 2px;
+  margin-right: 64px;
+  padding:2px 5px 0 5px;
+   width: 30vh;
+   height:79vh;
    margin-bottom: 70px;
    border-radius: 5px;
    background-color: lighten($color: black, $amount: 30);
@@ -97,7 +94,8 @@ padding-right: 65px;
  }
 
  .movieImage{
-  width: 250px;
+  width: 190px;
+  height:300px;
 padding: 4px 5px 0 5px;
  }
  .imageContainer{
@@ -180,6 +178,13 @@ padding: 4px 5px 0 5px;
   flex-direction: column;
   width: auto;
 }
+
+.rightIcons{
+  align-items:center ;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+}
 .slideImage{
   width: auto;
   padding:0 10px;
@@ -223,36 +228,48 @@ flex-wrap: wrap;
 margin-top: 10px;
  margin-left: 10px;
 }
-.footerRight{
-  display: flex;
-  align-items: center;
-  margin-top: 35px;
-  flex-direction: column; 
-  float: right;
-  margin-left: auto;
-  ul{
-    display: flex;
-    flex-direction: row; 
-    margin-right: 15px;
-    margin-bottom: 5px;
-    li{
-      list-style-type: none;
-      padding: 0 20px;
-      color:black;
-      font-size: large;
-    }
-    li:hover{
-      color: lightgreen;
-    }
+//  .footerRight{
+//    display: flex;
+//    align-items: center;
+//  margin-bottom: 35px;
+//    flex-direction: column; 
+//    float: right;
+//    margin-left: auto;
+// }
+//    .footerRightul{
+//      display: flex;
+//      flex-direction: row; 
+//      margin-right: 15px;
+    
+//  }
+   .footerRightli{
+     list-style-type: none;
+     padding: 10px 20px;
+     color:black;
+   }
+.footerRightli:hover{
+  color: lightgreen;
+}
+  //  
+// }
+  .footerRightIcons{
+ 
+ margin-right: 15%;
+ 
   }
-}
+
+//  .footerRightIcons>ul{
+//   display: flex;
+//   align-items: center;
+//   flex-direction: row; 
+//  }
+  .footerIcon:hover{
+    color: lightgreen;
+  }
+
 .footerIcon{
-  width: 80px;
-  height: 120px;
-  margin-top: 17px;
-}
-.footerIcon:hover{
-  color: blue;
+  list-style-type: none;
+  padding: 10px;
 }
 .movieDetail{
   padding: 10px;
@@ -282,13 +299,13 @@ margin-top: 10px;
   ul{
        display:flex;
        
-       margin-left: -80px;
+      //  margin-left: -80px;
     align-items: center;
 flex-direction: row;
   }
   li{
-    padding: 10px;
-    font-size: small;
+    padding: 5px;
+    font-size: x-small;
     text-transform: uppercase;
     color:lightgreen;
   }
@@ -320,24 +337,50 @@ flex-direction: row;
   }
 }
 
-.footerRight{
-  margin-left: 2px;
-  ul{
-  margin-right: 5px;
- li{
-    font-size:small;
-    padding: 0 ;
-    margin: 0;
-  }
-}
-}
+ .footerRight{
+   margin-left: 2px;
+   display:flex;
+   flex-direction: row;
+ }
 
-//  .footerIcon{
-//   width: 80px;
-//   height: 80px;
-//   padding: 17px 0 0 0;
-//   margin: 0;
-// }
+
+ .footerRightli:hover{
+  color: green;}
+//   .footerRightul{
+//   margin-right: 2px;
+//   display:flex;
+//   flex-direction: row;}
+ .footerRightli{
+    font-size:small;
+    padding: 17px 6px;
+    margin: 0;
+    list-style-type: none;
+  }
+
+
+
+  .footerRightIcons{
+   width: 80px;
+   height: 10px;
+   margin: 0;
+ }
+
+  .footerIcon:hover{
+  color: green;}
+
+ .footerIcon{
+  margin-top: 0;
+    font-size:small;
+    padding: 3px 6px;
+    margin: 0;
+    list-style-type: none;
+ }
+ .copyright{
+
+  margin-bottom: 80px;
+  padding-bottom: 70px;
+  font-weight: lighter;
+ }
 }
   
   
@@ -352,7 +395,7 @@ flex-direction: row;
     .rightIcons{
       display: flex;
       flex-direction: row;
-     margin-left: 20px;
+     margin-left: 5px;
       
     }
 
@@ -363,13 +406,28 @@ flex-direction: row;
       border: 1px solid white;
       list-style-type: none;
       box-shadow: 1px 1px 2px 1px;
-      margin-right: 20px;
+      margin-right: 10px;
       border-radius: 6px;
     }
     .iconItems:hover{
       background-color: green;
       color: white;
       box-shadow: inset 20px 20px 20px -2px rgba(0,0,0,0.7);
+    }
+
+    .logoText{
+      font-size: xx-small;
+    }
+    .logo{
+      font-size: xx-small;
+      padding:5px;
+    }
+    .navContainer{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-left: 20px;
     }
     
   }
