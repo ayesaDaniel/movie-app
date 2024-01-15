@@ -317,6 +317,10 @@ flex-direction: row;
   .logo{
     padding: 5px;
     margin-right: 9px;
+    font-size: small;
+  }
+  .logoText{
+    font-size: xx-small;
   }
 }
 .iconItems{
@@ -383,6 +387,7 @@ flex-direction: row;
  }
  .popularContainer{
   width: 33vh;
+  padding: 0;
  }
 }
   
