@@ -321,6 +321,8 @@ flex-direction: row;
   }
   .logoText{
     font-size: xx-small;
+    padding-left: 0;
+    margin-left: 0;
   }
 }
 .iconItems{
@@ -388,6 +390,7 @@ flex-direction: row;
  .popularContainer{
   width: 33vh;
   padding: 0;
+  height: 82vh;
  }
 }
   
@@ -403,7 +406,7 @@ flex-direction: row;
     .rightIcons{
       display: flex;
       flex-direction: row;
-     margin-left: 5px;
+     margin-left: 1px;
       
     }
 
