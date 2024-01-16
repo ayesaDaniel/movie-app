@@ -41,6 +41,9 @@ min-width: 20vh;
       color: green;
       
     }
+    li:active{
+      color: green;
+    }
     .logo{border: 2px solid darken($color: green, $amount: 10);
     padding: 10px;
     border-radius: 5px;

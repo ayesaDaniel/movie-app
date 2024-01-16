@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Nav() {
     return ( 
         <>
-          <nav className={styles.nav}>
+          <Nav className={styles.nav}>
        <h2  className={styles.logoText}>
          <span className={styles.logo}>SS</span> 
          SaintStream</h2>
@@ -20,7 +20,7 @@ export default function Nav() {
      <Link href="series"> <li className={styles.item}>Series</li> </Link>
 
      </ul>
-        </nav> 
+        </Nav> 
         
         </>
      );
