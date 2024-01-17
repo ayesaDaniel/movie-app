@@ -11,14 +11,16 @@ export default function Movie(props){
                 <Image  src={imagePath + props.poster_path} 
                 width={250} height={400} alt= {props.title}
                 className={styles.movieImage}
-              
+          
                 />
            
-            <h1 className={styles.movieTitle}> {props.title}
+           <div className={styles.popularInfo}>
+          <h1 className={styles.movieTitle}> {props.title}
             | 
              < MdStarRate width={40} height={90} className ={styles.starRating}/>{props.rating}
             </h1>
             <h2 className={styles.ReleaseDate}>Release Date:{props.release_date}</h2>
+          </div>
         </div>
         </Link>
       </section>

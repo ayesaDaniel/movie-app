@@ -11,7 +11,7 @@ export default async function Home() {
 
  
  const popularMovie = res.results?.map((movie: {
-   vote_average: number; id: any; title: any; poster_path: any; release_date: any; 
+   vote_average: any; id: any; title: any; poster_path: any; release_date: any; 
 }) =>(
 <div className={styles.popular}>
 <Movie 
