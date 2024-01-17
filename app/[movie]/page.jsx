@@ -33,7 +33,7 @@ proirity="true"
           />
        </div>
         <p className={styles.textOverview}>
-           <span className={styles.textOverviewGreen}> Overview</span>
+           <span className={styles.textOverviewGreen}> Storyline</span>
             :{res.overview}</p>  
     
  </div>
