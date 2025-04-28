@@ -82,7 +82,9 @@ min-width: 20vh;
   // padding-top: 2px;
   // margin-right: 64px;
   // padding:2px 3px 0 3px;
- width: 46vh;
+ width: auto;
+ padding: 20px;
+ 
   // width: fit-content;
    height:44vh;
    margin-bottom: 70px;
@@ -105,8 +107,7 @@ background-color: lighten($color: black, $amount: 10);
 //  }
 
  .movieImage{
-  width: 320px;
-  height:220px;
+ 
   display:flex;
   align-items: center;
   margin: auto;
@@ -207,7 +208,7 @@ padding: 4px 5px 0 5px;
 }
 .slideImage{
   width: auto;
-  padding:0 10px;
+  padding:0 5px;
 }
 .footer{
   display: flex;
@@ -318,9 +319,15 @@ margin-top: 10px;
  padding-top: 1.7px;
 
 }
-
+@media (min-width: 1024px) {
+  .slideImage{
+    max-height: 570px;
+    width: auto;
+  }
+}
 
 @media only screen and (max-width:700px ){
+ 
 .nav{
   display: flex;
   align-items: center;
@@ -450,7 +457,7 @@ flex-direction: row;
       border-radius: 6px;
     }
     .iconItems:hover{
-      background-color: green;
+      background-color:lighten($color: black, $amount: 30);
       color: white;
       box-shadow: inset 20px 20px 20px -2px rgba(0,0,0,0.7);
     }

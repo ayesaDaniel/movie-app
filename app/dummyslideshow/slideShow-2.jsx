@@ -7,7 +7,8 @@ export default function SlideShow2(){
        <Image src="/wallpapersden.com_dc-aquaman-2_1336x768.jpg" 
        className={styles.slideImage} 
         width={1500}
-        height={760}
+        
+        height={90}
         layout = "responsive"
         priority
         alt="Aquaman 2"/>

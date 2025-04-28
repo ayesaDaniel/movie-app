@@ -7,7 +7,8 @@ export default function SlideShow3(){
        <Image src="/wallpapersden.com_hunger-games-prequel-movie_3840x2160.jpg"  
        className={styles.slideImage}
        width={1500}
-        height={760}
+    
+        height={90}
         layout = "responsive"
         alt="The hunger games"
         priority/>

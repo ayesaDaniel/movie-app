@@ -40,7 +40,7 @@ useEffect(function(){
   }, [])
     return(
        <>
-        <div>
+        <div>    className={styles.slideImageWrapper}
        { slideShow}
        
        </div>

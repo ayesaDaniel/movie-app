@@ -10,7 +10,7 @@ export default function Series(props){
       <div className={styles.popularContainer}>
          
               <Image  src={imagePath + props.poster_path }
-              width={250} height={400} alt= {props.title}
+            width={287} height={320} alt= {props.title}
               className={styles.movieImage}
               />
           

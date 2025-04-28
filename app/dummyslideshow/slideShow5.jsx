@@ -7,7 +7,8 @@ export default function SlideShow5(){
        <Image src="/wallpapersden.com_the-marvels-2023-movie-poster_3840x3176.jpg"  
         className={styles.slideImage}
         width={1500}
-        height={760}
+        height={90}
+        
         alt="The Marvels"    
         layout = "responsive"
         priority/>

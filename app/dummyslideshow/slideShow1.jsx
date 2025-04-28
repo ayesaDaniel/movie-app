@@ -10,7 +10,8 @@ export default function SlideShow1(){
        className={styles.slideImage}
        src="/wallpapersden.com_daisy-ridley-the-marsh-king-s-daughter_3840x2160.jpg"  
         width={1500}
-        height={760}
+       
+        height={90}
         layout = "responsive"
         priority
         alt="The kings daughter"/>
